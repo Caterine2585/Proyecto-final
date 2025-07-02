@@ -1,0 +1,51 @@
+/*Barra lateral*/
+.barra-lateral {
+    width: 250px;
+    background-color: #2B3A67 !important;
+    color: white;
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.elemento-menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.elemento-menu:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.bg-primary {
+    background-color: #2B3A67 !important;
+}
+
+.encabezado-derecha {
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid {
+    background-color: #778ee9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    top: 0;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}

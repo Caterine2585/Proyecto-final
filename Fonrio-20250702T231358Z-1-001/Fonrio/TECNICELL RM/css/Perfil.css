@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(135deg, #667eea 0%, #8fa4dd 100%);
+    margin: 100;
+    font-family: Arial, sans-serif;
+}
+.InicioI {
+    background: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    animation: aparecer 0.6s ease-out;
+    box-shadow: 0 2px 8px #1877f2;
+}
+
+/* Imagen de perfil centrada con espaciado uniforme */
+.Fotoperfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    box-shadow: 0 2px 8px #1877f2;
+    margin: 30px auto;
+    display: block;
+}
+
+/* Título */
+.TituloPerfil {
+    color: #1877f2;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Lista de datos */
+.datos-perfil {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+
+.datos-perfil li {
+    font-size: 18px;
+    color: #333;
+    margin: 6px 0;
+}
+
+/* Botones */
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 10px;
+}
+
+.botones a,
+.botones button {
+    background: #1877f2;
+    color: #fff;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.footer {
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    background: #000000;
+    padding: 15px;
+}
