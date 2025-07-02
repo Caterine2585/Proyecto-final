@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/compra.css" />
+  <link rel="icon" href="../Imagenes/Logo.webp" type="image/webp" />
+  <title>Compras</title>
+</head>
+<body>
+
+  <!-- CABECERA FUERA DEL CONTAINER -->
+  <div class="cabecera">
+    <a href="../html/Index.html">
+      <img src="../Imagenes/Logo.webp" alt="Logo esquina" class="logo" />
+    </a>
+    <h1 class="titulo">Compras</h1>
+  </div>
+
+  <!-- CONTENIDO -->
+  <div class="container my-5">
+    <form id="formCompra" class="p-3">
+      <div class="row g-3">
+
+        <div class="col-md-4">
+          <label for="idEntrada" class="form-label">ID Entrada</label>
+          <input type="text" name="idEntrada" class="form-control" placeholder="EN001" required>
+        </div>
+
+        <div class="col-md-4">
+          <label for="precio" class="form-label">Precio Compra</label>
+          <input type="number" name="precio" class="form-control" placeholder="$" required>
+        </div>
+
+        <div class="col-md-4">
+          <label for="idProducto" class="form-label">ID Producto</label>
+          <input type="text" name="idProducto" class="form-control" placeholder="PRO001" required>
+        </div>
+
+        <div class="col-md-6">
+          <label for="empleado" class="form-label">Documento Empleado</label>
+          <select name="empleado" class="form-select" required>
+            <option value="">Seleccione</option>
+            <option value="12345678">12345678</option>
+            <option value="23456789">23456789</option>
+            <option value="34567890">34567890</option>
+            <option value="45678901">45678901</option>
+          </select>
+        </div>
+
+        <div class="col-md-3">
+          <label for="cantidad" class="form-label">Cantidad</label>
+          <input type="number" name="cantidad" class="form-control" min="1" value="1" required>
+        </div>
+
+        <div class="col-md-3">
+          <label for="fecha" class="form-label">Fecha Entrada</label>
+          <input type="date" name="fecha" class="form-control" required>
+        </div>
+
+        <div class="col-12">
+          <label for="proveedor" class="form-label">ID Proveedor</label>
+          <select name="proveedor" class="form-select" required>
+            <option value="">Seleccione</option>
+            <option value="PROV-01">PROV-01</option>
+            <option value="PROV-02">PROV-02</option>
+            <option value="PROV-03">PROV-03</option>
+            <option value="PROV-04">PROV-04</option>
+          </select>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-4">
+        <button type="submit" class="btn btn-primary">Guardar Compra</button>
+      </div>
+    </form>
+  </div>
+
+  <footer class="footer">
+    <p>Copyright © 2025 Fonrio</p>
+  </footer>
+
+</body>
+</html>

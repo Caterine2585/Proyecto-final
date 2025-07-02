@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/Devoluciones.css" />
+  <link rel="icon" href="../Imagenes/Logo.webp" type="image/webp" />
+  <title>Devoluciones</title>
+</head>
+<body>
+  <a href="../html/Index.html">
+    <img src="../Imagenes/Logo.webp" alt="Logo esquina" class="logo" />
+  </a>
+
+  <div class="cabecera">
+    <h1 class="titulo">Devoluciones</h1>
+  </div>
+<form class="container mt-5" action="../html/Productos.html">
+  <div class="row g-3">
+    <div class="col-md-6">
+      <label for="fecha" class="form-label">Fecha:</label>
+      <input type="date" class="form-control" id="fecha" name="fecha" required>
+    </div>
+    <div class="col-md-6">
+      <label for="Cantidad_Devuelta" class="form-label">Cantidad Devuelta:</label>
+      <input type="text" class="form-control" id="Cantidad_Devuelta" name="Cantidad_Devuelta" placeholder="Numero de productos devueltos" required>
+    </div>
+    <div class="col-md-6">
+      <label for="N°Devuelta" class="form-label">N° Devolución:</label>
+      <input type="text" class="form-control" id="N°Devuelta" name="N°Devuelta" placeholder="DEV001" required>
+    </div>
+    <div class="col-md-6">
+      <label for="N°Venta" class="form-label">N° Venta:</label>
+      <input type="text" class="form-control" id="N°Venta" name="N°Venta" placeholder="VEN001" required>
+    </div>
+    <div class="col-12">
+      <label for="Motivo" class="form-label">Motivo:</label>
+      <input type="text" class="form-control" id="Motivo" name="Motivo" placeholder="Producto defectuoso" required>
+    </div>
+    <div class="col-12 text-center mt-4">
+      <button type="submit" class="btn btn-primary">Guardar cambios</button>
+    </div>
+  </div>
+</form>
+
+        
+  <footer class="footer">
+    <p>Copyright © 2025 Fonrio</p>
+  </footer>
+</body>
+</html>

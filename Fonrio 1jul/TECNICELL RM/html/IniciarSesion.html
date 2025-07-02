@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="imagen" href="../Imagenes/Logo.webp">
+  <title>Iniciar Sesión</title>
+
+  <!-- Bootstrap para estilos base -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="../css/IniciarSesion.css">
+
+  <!-- Ícono del sitio -->
+  <link rel="icon" type="imagen" href="../Imagenes/Logo.webp">
+</head>
+<body>
+  <!-- Contenedor principal -->
+  <div class="container">
+    <div class="row justify-content-center align-items-center min-vh-100">
+      <div class="col-md-4">
+        <div class="InicioI">
+          <!-- Encabezado -->
+          <div class="text-center mb-4">
+            <h1>Bienvenido</h1>
+            <p>Inicia sesión para continuar</p>
+          </div>
+
+          <!-- Formulario -->
+          <form action="../html/Inicio.html" method="get">
+            <!-- Campo Usuario -->
+            <div class="mb-3">
+              <label for="usuario" class="form-label">Usuario</label>
+              <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Ingrese su usuario" required/>
+            </div>
+
+            <!-- Campo Contraseña -->
+            <div class="mb-1">
+              <label for="contrasena" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña" required/>
+            </div>
+
+            <!-- Recuperación de contraseña -->
+            <div class="mb-3 text-end">
+              <a href="RContraseña.html" class="link-recuperar">¿Olvidaste tu contraseña?</a>
+            </div>
+
+            <!-- Botón de enviar -->
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary">Entrar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
